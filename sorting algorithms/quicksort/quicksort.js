@@ -24,6 +24,20 @@ function setup() {
         quickSort(values, 0, values.length - 1);
     }
     //quickSort(values, 0, values.length - 1);
+}
+
+
+// leys try bubble sort here 
+function bubblesort(arr) {
+    let swapped = true;
+    let i = 0;
+    while (swapped) {
+        swapped = false;
+        if (arr[i] > arr[i + 1]) {
+            swap(arr, arr[i], arr[i + 1]);
+            swappd = true;
+        }
+    }
 
 
 }
