@@ -19,10 +19,9 @@ function setup() {
         // split the array
         let arr = custim_inp.split(",");
         values = tointArr(arr);
-    } else {
+    } 
 
         quickSort(values, 0, values.length - 1);
-    }
     //quickSort(values, 0, values.length - 1);
 }
 
